@@ -13,7 +13,7 @@ Global optimization attempts to find the global minima / maxima of a function or
 ## Some visualizations
 * **Simulated Annealing:** Below we see the comparison between simulated annealing (SA) and greedy search (GS) on an example objective. The search algorithm attempts to minimize the function based on two variables. In the image, green areas are maximas and purple areas are minimas, with the intensity representing magnitude.
   
-![Simulated Annealing example](Images/simulated_annealing.png)
+![Simulated Annealing example](Images/SA_demo.png)
 
 * **Genetic Algorithsm**: Below shows the evolution of the solutions for two problems solved using genetic algorithms: path finding and travelling salesman problem:
   

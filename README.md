@@ -8,11 +8,12 @@ Global optimization attempts to find the global minima / maxima of a function or
 * Simulated Annealing (with and without automatic parameter selection)
 * Genetic Algorithms for Path Finding and Travelling Salesman Problem
 * Multi Objective Optimization using Elitist Non-Dominated Sorting Genetic Algorithm (NSGA-II)
+* Tabu Search for Travelling Salesman Problem and Capacitated Vehicle Routing Problem
 
 ## Some visualizations
-* **Simulated Annealing:** Below we see the comparison between simulated annealing (SA) and greedy search (GS) on an example objective. The search algorithm attempts to minimize the function based on two variables. In the image, green areas are maximas and purple areas are minimas, with teh intensity representing magnitude.
+* **Simulated Annealing:** Below we see the comparison between simulated annealing (SA) and greedy search (GS) on an example objective. The search algorithm attempts to minimize the function based on two variables. In the image, green areas are maximas and purple areas are minimas, with the intensity representing magnitude.
   
-![Simulated Annealing example](Images/simulated_annealing.PNG)
+![Simulated Annealing example](Images/simulated_annealing.png)
 
 * **Genetic Algorithsm**: Below shows the evolution of the solutions for two problems solved using genetic algorithms: path finding and travelling salesman problem:
   
@@ -33,8 +34,17 @@ Global optimization attempts to find the global minima / maxima of a function or
 ![Path finding using genetic algorithm](Images/nsga_kursawe.gif)  |  ![TSP using genetic algorithms](Images/nsga_viennet.gif)
 </center>
 
+* **Tabu Search**: Below compares an optimal solution found using Tabu search vs. greedy search for the [Vehicle Routing Problem](https://en.wikipedia.org/wiki/Vehicle_routing_problem).
+
+<center>
+
+ Greedy Search          |  Tabu Search
+:-------------------------:|:-------------------------:
+![VRP optimal solution using Greedy search](Images/vrp_greedy.png)  |  ![VRP optimal solution using Tabu search](Images/vrp_tabu.png)
+</center>
+  
 ## Running the Code
-The code is avaialble as separate Jupyter notebooks, which can be run indeendenat on one another.
+The code is available as separate Jupyter notebooks, which can be run independent on one another.
 
 ## Acknowledgements
 The theoretical details for the algorithms have been taken from the course [Surrogate and Metaheuristic Global Optimization](https://ivle.nus.edu.sg/V1/lms/public/view_moduleoutline.aspx?CourseID=1D86508F-95B6-4BD2-AC09-6A895C581EBF&ClickFrom=StuViewBtn) offered in [NUS](http://www.nus.edu.sg), taught by [Prof. Christine Shoemaker](https://www.eng.nus.edu.sg/isem/staff/christine-a-shoemaker/)

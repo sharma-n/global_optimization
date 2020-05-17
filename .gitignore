@@ -1,4 +1,4 @@
 .ipynb_checkpoints/*
 **/__pycache__/*
-8. Tabu Search.ipynb
 **/*.mp4
+.vscode/

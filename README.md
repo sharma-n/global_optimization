@@ -9,6 +9,7 @@ Global optimization attempts to find the global minima / maxima of a function or
 * Genetic Algorithms for Path Finding and Travelling Salesman Problem
 * Multi Objective Optimization using Elitist Non-Dominated Sorting Genetic Algorithm (NSGA-II)
 * Tabu Search for Travelling Salesman Problem and Capacitated Vehicle Routing Problem
+* Dynamically Dimensioned Search (DDS)
 
 ## Some visualizations
 * **Simulated Annealing:** Below we see the comparison between simulated annealing (SA) and greedy search (GS) on an example objective. The search algorithm attempts to minimize the function based on two variables. In the image, green areas are maximas and purple areas are minimas, with the intensity representing magnitude.

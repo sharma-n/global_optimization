@@ -2,3 +2,6 @@
 **/__pycache__/*
 **/*.mp4
 .vscode/
+output/
+10. Surrogate Optimization.ipynb
+text_generation.ipynb

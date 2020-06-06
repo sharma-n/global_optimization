@@ -13,6 +13,8 @@ Global optimization attempts to find the global minima / maxima of a function or
 * Tabu Search for Travelling Salesman Problem and Capacitated Vehicle Routing Problem
 * Dynamically Dimensioned Search (DDS)
 * Using surrogate optimization to search for optimal hyperparameter set for a Neural Network
+* Particle Swarm Optimization (PSO): multi-threaded implementation
+* Using Particle Swarm Optimization to solve Inverse Kinematics problem and train a simple neural network
 
 ## Some visualizations
 * **Simulated Annealing:** Below we see the comparison between simulated annealing (SA) and greedy search (GS) on an example objective. The search algorithm attempts to minimize the function based on two variables. In the image, green areas are maximas and purple areas are minimas, with the intensity representing magnitude.
@@ -50,6 +52,10 @@ Global optimization attempts to find the global minima / maxima of a function or
 * **Neural Network Hyperparameter Search:** Below shows a comparison in the loss of the best model achieved when optimizing hte hyperparameters of a neural network model. The NN model was trained to do text prediction for the works of Shakespeare. The hyperparameters to be optimized were: the embedding dimension, the number of GRU units per layer and the number of GRU layers.
 
 ![Surrogate optimization vs. random guessing for NN hyperparameter search](Images/NN_hyperparam_search.png)
+
+* **Particle Swarm Optimization:** Below shows the movement of the global solution found by the PSO algorithm, for the Rastrigin function.
+
+![Rastrigin function PSO algorithm](Images/pso.gif)
 
 ## Running the Code
 The code is available as separate Jupyter notebooks, which can be run independent on one another.

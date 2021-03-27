@@ -15,6 +15,7 @@ Global optimization attempts to find the global minima / maxima of a function or
 * Using surrogate optimization to search for optimal hyperparameter set for a Neural Network
 * Particle Swarm Optimization (PSO): multi-threaded implementation
 * Using Particle Swarm Optimization to solve Inverse Kinematics problem and train a simple neural network
+* Ant Colony OPtimization (ACO): multi-threaded implementation
 
 ## Some visualizations
 * **Simulated Annealing:** Below we see the comparison between simulated annealing (SA) and greedy search (GS) on an example objective. The search algorithm attempts to minimize the function based on two variables. In the image, green areas are maximas and purple areas are minimas, with the intensity representing magnitude.
@@ -57,6 +58,14 @@ Global optimization attempts to find the global minima / maxima of a function or
 
 ![Rastrigin function PSO algorithm](Images/pso.gif)
 
+* **Ant Colony Optimization:** Below is the solution obtained for the TSP problem for 100 cities.
+<center>
+
+ Total distance          |  Optimal Path
+:-------------------------:|:-------------------------:
+![ACO for TSP](Images/aco_tsp_total.gif)  |  ![TSP solution found using ACO](Images/aco_tsp_path.gif)
+</center>
+
 ## Running the Code
 The code is available as separate Jupyter notebooks, which can be run independent on one another.
 
@@ -66,4 +75,4 @@ $ pip install pySOT
 ```
 
 ## Acknowledgements
-The theoretical details for the algorithms have been taken from the course [Surrogate and Metaheuristic Global Optimization](https://ivle.nus.edu.sg/V1/lms/public/view_moduleoutline.aspx?CourseID=1D86508F-95B6-4BD2-AC09-6A895C581EBF&ClickFrom=StuViewBtn) offered in [NUS](http://www.nus.edu.sg), taught by [Prof. Christine Shoemaker](https://www.eng.nus.edu.sg/isem/staff/christine-a-shoemaker/). Prof. Shoemaker's team is also responsible for the development of the `pySOT` package.
+The theoretical details for a lot of the algorithms have been taken from the course [Surrogate and Metaheuristic Global Optimization](https://ivle.nus.edu.sg/V1/lms/public/view_moduleoutline.aspx?CourseID=1D86508F-95B6-4BD2-AC09-6A895C581EBF&ClickFrom=StuViewBtn) offered in [NUS](http://www.nus.edu.sg), taught by [Prof. Christine Shoemaker](https://www.eng.nus.edu.sg/isem/staff/christine-a-shoemaker/). Prof. Shoemaker's team is also responsible for the development of the `pySOT` package.
